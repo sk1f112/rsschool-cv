@@ -1,13 +1,29 @@
 * {
     box-sizing: border-box;
 }
+
+p, pre {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.contact, .skill {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 html {
     scroll-behavior: smooth;
 }
+
 header {
     background: rgb(29, 67, 105);
     display: block;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
     justify-content: space-between;
@@ -15,10 +31,12 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
 }
+
 .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -27,6 +45,7 @@ body {
     margin: 0;
     padding: 10px;
 }
+
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
@@ -37,4 +56,68 @@ body {
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size .3s;
+}
+
+.nav-link:hover {
+    background-size: 75% 2px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section {
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid rgb(29, 67, 105);
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border-bottom: 10px solid #265080;
+}
+
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.section-profile-title h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section-profile-logo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 0.8);
+    filter: grayscale(0.2) brightness(1.05);
+    transition: .3s;
+    margin: 20px
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #0615b171;
+    text-shadow: 4px 4px 8px pink;
 }
