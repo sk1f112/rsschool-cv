@@ -121,3 +121,37 @@ body {
     color: #0615b171;
     text-shadow: 4px 4px 8px pink;
 }
+
+.footer {
+    background-color: rgb(29, 67, 105);
+    margin-top: 20px;
+    padding: 20px;
+    display: block;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.year {
+    font-size: 20px;
+}
+
+.my-github {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 45px;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url(/icons/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
