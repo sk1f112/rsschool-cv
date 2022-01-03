@@ -8,6 +8,13 @@ header {
     background: rgb(29, 67, 105);
     display: block;
 }
+body {
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -30,7 +37,4 @@ header {
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size .3s;
-}
-.nav-link:hover {
-    background-size: 75% 2px;
 }
