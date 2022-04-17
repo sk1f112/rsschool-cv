@@ -1,8 +1,5 @@
 body{
-    background: url("./bg.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: black;
 }
 .container{
     padding: 10px;
@@ -32,5 +29,4 @@ video{
     width: 80%;
     box-shadow: 10px 5px 3px black;
     border: red;
-    border-radius: 70px;
 }
